@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+:root {
+  --color-bg: #0a0a0f;
+  --color-bg-deep: #07070b;
+  --color-surface: #161625;
+  --color-surface-soft: #10101a;
+  --color-violet: #5a4fcf;
+  --color-violet-bright: #7065f0;
+  --color-mauve: #e0b0ff;
+  --color-text: #ffffff;
+  --color-text-soft: rgba(255, 255, 255, 0.72);
+  --color-text-muted: rgba(255, 255, 255, 0.48);
+  --color-text-faint: rgba(255, 255, 255, 0.28);
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-soft: rgba(255, 255, 255, 0.06);
+  --color-grid: rgba(224, 176, 255, 0.08);
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --content-max: 1440px;
+  --gutter: clamp(1.25rem, 4vw, 4rem);
+  --section-pad: clamp(5.5rem, 10vw, 10rem);
+  --radius-card: 24px;
+  --radius-control: 12px;
+  --radius-small: 6px;
+  --shadow-violet: 0 24px 70px rgba(90, 79, 207, 0.22);
+  --shadow-card: 0 28px 90px rgba(0, 0, 0, 0.28);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
