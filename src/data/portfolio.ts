@@ -9,9 +9,9 @@ export const socialLinks = {
 export const skillGroups: SkillGroup[] = [
   { id: 'languages', label: 'Languages', icon: 'terminal', items: ['C++', 'Python', 'JavaScript', 'HTML', 'CSS', 'MATLAB'] },
   { id: 'ai-data', label: 'AI / Data', icon: 'database', items: ['Artificial Intelligence', 'Machine Learning', 'Data Science', 'Generative AI'] },
-  { id: 'development', label: 'Development', icon: 'layers', items: ['React', 'Node.js', 'Firebase'] },
+  { id: 'development', label: 'Development', icon: 'layers', items: ['React', 'Node.js', ] },
   { id: 'cloud', label: 'Cloud / DevOps', icon: 'cloud', items: ['AWS', 'EC2', 'S3', 'IAM', 'CloudWatch', 'Vercel', 'Render'] },
-  { id: 'tools', label: 'Tools', icon: 'code', items: ['Git', 'GitHub', 'VS Code', 'Linux', 'WSL'] },
+  { id: 'tools', label: 'Tools', icon: 'code', items: ['Git', 'GitHub',  'Linux', 'WSL'] },
 ]
 
 export const projects: Project[] = [
@@ -98,9 +98,9 @@ export const experiences: Experience[] = [
   },
 
   {
-    id: 'sbgl',
+    id: 'AWS SBGL',
     label: 'PROFESSIONAL / COMMUNITY',
-    title: 'SBGL',
+    title: 'AWS SBGL',
     organisation: 'Professional Development',
     description:
       'Building professional and technical skills through community engagement, collaboration and exposure to emerging technologies and professional environments.',
