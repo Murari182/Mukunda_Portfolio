@@ -109,6 +109,17 @@ export const experiences: Experience[] = [
   },
 
   {
+    id: 'gssoc',
+    label: 'AGENTS FOR INDIA / AUG 2026 – SEP 2026',
+    title: 'GSSoC 2026 — AI Agents Contributor',
+    organisation: 'GirlScript Foundation × Smartly Labs',
+    description:
+      'Selected for the GSSoC 2026 AI Agents track, contributing to the development and evaluation of AI agents through deployment, response improvement, Indian-language localisation, agent tuning, and dataset contributions.',
+    tags: ['AI Agents', 'Generative AI', 'AI Evaluation', 'Localisation'],
+    side: 'left',
+  },
+
+  {
     id: 'aws',
     label: 'CLOUD / INFRASTRUCTURE',
     title: 'AWS Cloud Internship — ThinkChamp',
@@ -116,7 +127,7 @@ export const experiences: Experience[] = [
     description:
       'Hands-on experience with AWS cloud services including S3, EC2, IAM and CloudWatch, with practical exposure to cloud resources, deployment workflows and infrastructure management.',
     tags: ['S3', 'EC2', 'IAM', 'CloudWatch'],
-    side: 'left',
+    side: 'right',
   },
 
   {
@@ -127,11 +138,13 @@ export const experiences: Experience[] = [
     description:
       'Selected as a Google Gemini Student Ambassador, contributing to AI awareness through technical events, community engagement and conversations around emerging AI technologies.',
     tags: ['AI Awareness', 'Technical Events'],
-    side: 'right',
+    side: 'left',
   },
+  
 ];
 
 export const achievements: Achievement[] = [
+  { id: 'gssoc', title: 'GSSoC 2026 AI Agents Contributor', description: 'Selected for the GirlScript Summer of Code 2026 AI Agents track, powered by Smartly Labs\' Agents for India.', icon: 'brain' },
   { id: 'ambassador', title: 'Google Gemini Student Ambassador', description: 'Selected as a Google Gemini Student Ambassador, contributing to AI awareness, technical events and student community engagement.', icon: 'award' },
   { id: 'cgpa', title: '9.21 First Year CGPA', description: 'Strong academic performance in Mathematics & Computing at RGIPT.', icon: 'medal' },
   { id: 'ecell', title: 'E-Cell RGIPT', description: 'Contributing to entrepreneurship and innovation-focused student initiatives.', icon: 'users' },
